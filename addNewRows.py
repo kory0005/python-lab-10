@@ -1,13 +1,10 @@
 import sqlite3
 import base64
-import webbrowser
 
 
 # CONNECTION
 conn = sqlite3.connect('week10.db')
 c = conn.cursor()
-# query = 'SELECT id, link FROM lab10'
-# result = c.execute(query)
 
 
 # ADDING NEW ROWS
