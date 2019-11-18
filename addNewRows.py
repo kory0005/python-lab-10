@@ -14,7 +14,7 @@ c.execute('INSERT INTO lab10 (link,city,country,student) VALUES("aHR0cHM6Ly93d3c
 c.execute('INSERT INTO lab10 (link,city,country,student) VALUES("aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL3BsYWNlL0lzcGFoYW4sK0lyYW4vQDMyLjY2MjIxMDcsNTEuNTQ2NTk3NCwxMXovZGF0YT0hM20xITRiMSE0bTUhM200ITFzMHgzZmJjMzVmZThjMzI2Nzk5OjB4N2FiNTc4MTZlZjU4MzdmNSE4bTIhM2QzMi42NTM4OTY2ITRkNTEuNjY1OTY1Ng==", "Lviv", "Ukraine", "Illya")')
 c.execute('INSERT INTO lab10 (link,city,country,student) VALUES("aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL3BsYWNlL0lzcGFoYW4sK0lyYW4vQDMyLjY2MjIxMDcsNTEuNTQ2NTk3NCwxMXovZGF0YT0hM20xITRiMSE0bTUhM200ITFzMHgzZmJjMzVmZThjMzI2Nzk5OjB4N2FiNTc4MTZlZjU4MzdmNSE4bTIhM2QzMi42NTM4OTY2ITRkNTEuNjY1OTY1Ng==", "Gold Coast", "Australia", " ")')
 conn.commit()
-print("Record Updated successfully ")
+# print("Record Updated successfully ")
 
 c.close()
 conn.close()
