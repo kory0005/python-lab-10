@@ -13,8 +13,6 @@ result = c.execute(query)
 # ASK FOR A RECORD
 recordNum = input('Enter a record number between 1 and 29: ')
 
-record = "q"
-record2 = range(1,30,1)
 
 # QUIT | OPEN IN GOOGLE MAPS 
 if recordNum == "q":
@@ -29,7 +27,8 @@ elif int(recordNum) <= 29 and int(recordNum) >= 1:
     # open in browser
     webbrowser.open_new(decodedLink)
 else:
-    input('Enter a record number between 1 and 29: ')
+    while True:
+        print(input('Enter a record number between 1 and 29: '))
 
 
 c.close()
